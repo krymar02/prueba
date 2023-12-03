@@ -1,5 +1,5 @@
-markdown
-Copy code
+
+
 # Laboratorio 7 - Python Scripting
 
 **Universidad de Costa Rica  
@@ -34,8 +34,7 @@ Copy code
 python process_info.py 5072
 Resultado:
 
-yaml
-Copy code
+
 Nombre del proceso: code
 ID del proceso: 5072
 Parent process ID: 83148
@@ -45,26 +44,23 @@ Consumo de memoria: 219 MB
 Estado: Running
 Path del ejecutable: C:\Windows\visual studio code\process_info.py
 Ejercicio 2: Monitorear un Proceso
-bash
-Copy code
+
+
 python process_monitor.py firefox "Brave"
 Resultado:
 
-arduino
-Copy code
+
 Process 'Brave' restarted.
 Process 'Brave' restarted.
 Process 'Brave' restarted.
 ...
 Monitoring stopped.
 Ejercicio 3: Monitorear Consumo de CPU y Memoria
-bash
-Copy code
+
 python resource_monitor.py "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 Resultado:
 
-scss
-Copy code
+
 Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
 Branches
@@ -75,8 +71,6 @@ ejercicio3: Branch para el desarrollo del Ejercicio 3.
 Comandos Utilizados
 Algunos comandos utilizados durante el desarrollo:
 
-bash
-Copy code
 git checkout -b ejercicio1
 git checkout -b ejercicio2
 git checkout -b ejercicio3
